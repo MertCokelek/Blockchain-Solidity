@@ -1,0 +1,14 @@
+Here are some informations for successful run of the program:
+0- Please use compiler version 0.5.13+commit
+1- The "Value" section should be used in these functions:
+	- Join() // Participation Fee
+	- GetCharge(). // Cab Fare
+
+2- In 'Join()' function, the account should enter "100 ether" manually, in the "Value" section.
+3- The salary of the driver is set manually by the manager, in the "PurposeDriver()" function.
+4- Every transaction is made with "Ether" unit. The sub-units such as "Finney, Wei.." are not used. So, the balances will be more clear to understand.
+5- GetCharge() function is called by any account, because everyone can be a customer. The charge is entered at the "Value" section. Charge can be in any units(Wei, Gwei..)
+6- In my computer, in "Join" function, the accounts were able to enter a larger value than 100 ethers. I could not handle this.
+7- The offer valid times are taken as days. So, in order to use functions such as "PayDivident()", "GetSalary()", the time of the system should change by days.
+8- The possible bugs are prevented with "require()" keyword and the corresponding message is printed in console.
+
